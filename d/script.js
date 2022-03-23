@@ -1,5 +1,7 @@
 var sidePanel = document.getElementById("sidePanel");
- window.addEventListener("scroll",()=>{
+console.log(sidePanel);
+ window.addEventListener("scroll",async ()=>{
+    await Promise.resolve(10000);
     if(window.scrollY>window.innerHeight/2){
         sidePanel.className = "sidePanelC";
     }
