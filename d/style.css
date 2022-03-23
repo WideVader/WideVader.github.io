@@ -155,7 +155,7 @@ th{
     height: 100vh;
     width: 15%;
     position: absolute;
-    left: -15%;
+    left: -16%;
     background-image: linear-gradient(to right bottom,rgba(131, 131, 131, 0.8),rgba(131, 131, 131, 0.2));
     backdrop-filter: blur(10px);
     border-top-right-radius: 16px;
@@ -226,12 +226,12 @@ th{
         left: 0%;
     }
     100%{
-        left: -15%;
+        left: -16%;
     }
 }
 @keyframes apear {
     0%{
-        left: -15%;
+        left: -16%;
     }
     100%{
         left: 0%;
